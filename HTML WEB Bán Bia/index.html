@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/slider.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<section class="wrap">
+	<section class="header">
+	<article class="logo">
+		<img src="img/header-01.png" width="300">
+	</article>
+	<article class="menu">
+<nav>
+    <ul>
+        <li><a href="index.html"><img src="img/500px-Home_Icon_by_Lakas.svg.png" width="20"></a></li>
+        <li><a href="gioithieu.html">Giới Thiệu</a> </li>
+        <li><a href="sanpham.html">Sản Phẩm</a> </li>
+        <li><a href="phanphoi.html">Phân Phối</a></li>
+        <li> <a href="lienhe.html">Liên Hệ</a></li>
+    </ul>
+</nav>
+<input name="timkiem" placeholder="Tìm kiếm" type="text" id="timkiem" />
+</article>
+</section>
+<section class="js">
+<script>
+  var i = 0;
+  var images = [];
+  var time = 3000;
+  images[0] = 'img/banner-01-1.jpg';
+  images[1] = 'img/2.jpg';
+  images[2] = 'img/sl1.jpg';
+  function changeImage(){
+
+    document.slide.src = images[i];
+    if(i <images.length - 1){
+      i++;
+    } else {
+      i = 0;
+    }
+    setTimeout("changeImage()", time);
+  }
+  window.onload = changeImage;
+</script>
+<img class="slideshow" name="slide">
+</section>
+<section class="body">
+<article class="left">
+<h1>TIN CỔ ĐÔNG</h1>
+<article class="box">
+<img src="img/hinh-mau.jpg" width="400">
+</article>
+<br>
+	<a href="#">Báo cáo quản trị 6 tháng đầu năm 2018</a>
+<br>
+<br>
+<br>
+<article class="box12">
+<article class="box1">
+<img src="img/hinh-mau.jpg" width="180">
+<br>
+	<a href="#">Báo cáo Tài chính QII/2018</a>
+</article>
+<article class="box2">
+<img src="img/hinh-mau.jpg" width="180">
+<br>
+	<a href="#">Biên bản và Nghị quyết ĐHĐC<br>Đ thường niên 2018</a>
+</article>
+</article>
+</article>
+<article class="right">
+<h1>TIN TỨC - SỰ KIỆN</h1>
+<article class="box">
+<img src="img/bennet---nikkei-(002).jpeg" width="400">
+</article>
+<br>
+<a href="#">Tổng giám đốc SABECO: Cải cách nhằm tăng hiệu quả hoạt động của<br> SABECO</a>
+<br>
+<br>
+<article class="box12">
+<article class="box1">
+<img src="img/tu-hao-hang-viet-6-doanhnhansaigon-1538648290.jpg" width="180" height="110">
+<br>
+<a href="#">Chúc mừng tác phẩm "Bia 333 –<br> niềm tự hào của người Việt" đạt<br> giải nhất cuộc thi...</a>
+</article>
+<article class="box2">
+<img src="img/sabeco_horizontal-kv_final.png" width="180" height="110">
+<br>
+<a href="#">SABECO công bố chương trình<br> khuyến mãi "Uống mừng thành<br> công, trúng 8 xe sang"</a>
+</article>
+</article>
+</article>
+</section>
+<section>
+<p class="nhan"><strong>VĂN HÓA</strong> & ẨM THỰC<p>
+<article class="top">
+  <img src="img/fdsfs.jpg" width="195">
+  <p class="bia">Bia và những điều thú vị - Bia mặc dù là một trong những thức uống lâu đời nhất của loài người nhưng bia chỉ được biết đến nhiều ở Châu Á nói chung và Việt Nam nói riêng gần 200 năm trở lại đây.<br>
+  <br>
+ <a href="#">
+XEM THÊM</a></p>
+</article>
+<article class="bottoom">
+<img src="img/bia-lly.jpg" width="195" class="img">
+<p class="li">Bia và ly - Ly uống bia chỉ đơn thuần là một vật dụng dùng để uống bia. Nhưng trải qua hơn 6000 năm phát triển, mỗi loại bia đã tạo ra cho mình một chiếc áo phù hợp.
+<br>
+  <br>
+  <br>
+ <a href="#">
+XEM THÊM</a></p>
+</article>
+<article class="right1">
+<img src="img/1.png" width="393" height="422" class="img2">
+<p class="li1">Những Công Thức Phối Ghép Chuẩn Mực
+<br>
+  <br>
+  <br>
+ <a href="#">
+XEM THÊM</a></p>
+</article>
+<article class="ketnoi">
+<h4>KẾT NỐI</h4>
+<br>
+<article class="fb1">
+<a href="http://saigonspecial.com/"><img src="img/1.jpg" width="206" height="120"></a>
+</article>
+<article class="fb2">
+<a href="https://www.facebook.com/BiaSaigonSpecial/"><img src="img/7.jpg" width="206" height="120"></a>
+</article>
+<article class="fb3">
+<a href="https://www.facebook.com/bia333.sabeco"><img src="img/8.jpg" width="206" height="120"></a>
+</article>
+<article class="fb4">
+<a href="http://www.cdbeco.com.vn/"><img src="img/chuong-duong.jpg" width="206" height="120"></a>
+</article>
+</article>
+</section>
+<footer class="footer">
+<img src="img/logo.png" width="150" class="rong">
+<p class="for">COPYRIGHT © 2016,  TỔNG CÔNG TY CP BIA-RƯỢU-NƯỚC GIẢI KHÁT SÀI GÒN. ALL RIGHTS RESERVED. </p>
+</footer>
+</section>
+</body>
+</html>
